@@ -12,7 +12,7 @@ html {
 body {
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/img/Poster.jpg');
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img/Poster.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -281,3 +281,4 @@ a {
     a:hover {
       opacity: 0.8;
     }
+
