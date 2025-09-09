@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeapTechStore - Products</title>
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>   
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="../about/about.html">About Us</a></li>
+            <li><a href="../payment/payment.html">Payment</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="products-hero">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Discover the latest computer components and accessories</p>
+        </div>
+    </section>
+
+    <section class="products-filter">
+        <div class="container">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="cpu">CPUs</button>
+                <button class="filter-btn" data-category="gpu">Graphics Cards</button>
+                <button class="filter-btn" data-category="ram">Memory</button>
+                <button class="filter-btn" data-category="storage">Storage</button>
+                <button class="filter-btn" data-category="motherboard">Motherboards</button>
+                <button class="filter-btn" data-category="accessories">Accessories</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-card" data-category="cpu">
+                    <img src="../IMG/Intel Core i9.png" alt="CPU">
+                    <div class="product-info">
+                        <h3>Intel Core i9</h3>
+                        <p>High-performance processor for gaming and productivity</p>
+                        <p class="price">$499.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">12 Cores</span>
+                            <span class="feature-tag">24 Threads</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="gpu">
+                    <img src="../IMG/NVIDIA RTX 4090.png" alt="GPU">
+                    <div class="product-info">
+                        <h3>NVIDIA RTX 4090</h3>
+                        <p>Top-tier graphics card for ultimate gaming</p>
+                        <p class="price">$1499.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">24GB VRAM</span>
+                            <span class="feature-tag">4K Gaming</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="ram">
+                    <img src="../IMG/32GB DDR5 RAM.png" alt="RAM">
+                    <div class="product-info">
+                        <h3>32GB DDR5 RAM</h3>
+                        <p>Fast and reliable memory for multitasking</p>
+                        <p class="price">$199.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">DDR5</span>
+                            <span class="feature-tag">5600MHz</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="cpu">
+                    <img src="../IMG/AMD_Ryzen_7_7800X-removebg-preview (1).png" alt="CPU">
+                    <div class="product-info">
+                        <h3>AMD Ryzen 7 7800X</h3>
+                        <p>Best gaming CPU for the price. Excellent performance</p>
+                        <p class="price">$349.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">8 Cores</span>
+                            <span class="feature-tag">16 Threads</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="motherboard">
+                    <img src="../IMG/ASUS ROG Strix Z790-A.png" alt="Motherboard">
+                    <div class="product-info">
+                        <h3>ASUS ROG Strix Z790-A</h3>
+                        <p>Advanced motherboard with robust connectivity</p>
+                        <p class="price">$349.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Intel Z790</span>
+                            <span class="feature-tag">WiFi 6E</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <img src="../IMG/Corsair 850W PSU.png" alt="Power Supply">
+                    <div class="product-info">
+                        <h3>Corsair 850W PSU</h3>
+                        <p>Reliable power supply for high-performance builds</p>
+                        <p class="price">$129.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">80+ Gold</span>
+                            <span class="feature-tag">Modular</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="cpu">
+                    <img src="../IMG/Intel_Core_i7-removebg-preview.png" alt="CPU">
+                    <div class="product-info">
+                        <h3>Intel Core i7</h3>
+                        <p>Versatile processor for gaming and professional workloads</p>
+                        <p class="price">$329.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">8 Cores</span>
+                            <span class="feature-tag">16 Threads</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="gpu">
+                    <img src="../IMG/AMD Radeon RX 7900 XTX.png" alt="GPU">
+                    <div class="product-info">
+                        <h3>AMD Radeon RX 7900 XTX</h3>
+                        <p>High-end GPU for immersive gaming experiences</p>
+                        <p class="price">$999.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">24GB VRAM</span>
+                            <span class="feature-tag">RDNA 3</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="ram">
+                    <img src="../IMG/16GB_DDR4_RAM-removebg-preview.png" alt="RAM">
+                    <div class="product-info">
+                        <h3>16GB DDR4 RAM</h3>
+                        <p>Reliable memory for budget-friendly builds</p>
+                        <p class="price">$79.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">DDR4</span>
+                            <span class="feature-tag">3200MHz</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="storage">
+                    <img src="../IMG/Samsung 2TB 980 Pro SSD.png" alt="SSD">
+                    <div class="product-info">
+                        <h3>Samsung 2TB 980 Pro SSD</h3>
+                        <p>Large capacity storage for games and files</p>
+                        <p class="price">$199.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">NVMe</span>
+                            <span class="feature-tag">7000MB/s</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="motherboard">
+                    <img src="../IMG/MSI B550 Tomahawk.png" alt="Motherboard">
+                    <div class="product-info">
+                        <h3>MSI B550 Tomahawk</h3>
+                        <p>Robust motherboard for AMD Ryzen processors</p>
+                        <p class="price">$179.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">AMD B550</span>
+                            <span class="feature-tag">PCIe 4.0</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <img src="../IMG/EVGA 750W PSU.png" alt="Power Supply">
+                    <div class="product-info">
+                        <h3>EVGA 750W PSU</h3>
+                        <p>Efficient power supply for mid-range builds</p>
+                        <p class="price">$99.99</p>
+                        <div class="product-features">
+                            <span class="feature-tag">80+ Bronze</span>
+                            <span class="feature-tag">Semi-Modular</span>
+                        </div>
+                        <div class="cart-controls">
+                            <button class="quantity-btn">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn">+</button>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 LeapTechStore. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Product filtering functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const productCards = document.querySelectorAll('.product-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const category = btn.getAttribute('data-category');
+
+                productCards.forEach(card => {
+                    if (category === 'all' || card.getAttribute('data-category') === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Quantity controls
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('quantity-btn')) {
+                const input = e.target.parentNode.querySelector('.quantity-input');
+                const isIncrement = e.target.textContent === '+';
+                
+                if (isIncrement) {
+                    input.value = parseInt(input.value) + 1;
+                } else if (parseInt(input.value) > 1) {
+                    input.value = parseInt(input.value) - 1;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
